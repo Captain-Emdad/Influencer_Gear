@@ -258,3 +258,39 @@ footer li a {
   margin-top: 15px;
   letter-spacing: 1.2em;
 }
+
+/*media queries*/
+/*Mobile Devices*/
+
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .influencer,
+  .logo-image,
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top-header {
+    flex-direction: column;
+  }
+  .logo {
+    flex-direction: column;
+  }
+  .product {
+    flex-direction: column;
+  }
+}
+
+/*tablet devices*/
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+  .influencer,
+  .logo-image,
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
