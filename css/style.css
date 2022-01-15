@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=PT+Sans:ital@0;1&family=Poppins:wght@400;500&family=Raleway:ital@1&family=Roboto&display=swap");
+
+/*common tag*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.primary-button {
+  background-image: linear-gradient(90deg, #e02c6d, #53142c9f);
+  padding: 10px 24px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  box-shadow: 0 7px 0 #a03b60;
+}
+.primary-button:active {
+  top: 7px;
+  box-shadow: 0 0 0 #a03b60;
+}
+/*Header part*/
+.main-header {
+  font-size: 24px;
+  line-height: 34px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 8opx;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.navigation li {
+  list-style: none;
+  margin: 19px;
+}
+.navigation li a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #3a3a3a;
+}
+.influencer {
+  height: calc(100vh-80px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.influencer-talk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.influencer-talk h1 {
+  font-size: 42px;
+}
+.influencer-talk p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 2opx 0;
+}
+.influencer-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.influencer-image img {
+  width: 80%;
+}
