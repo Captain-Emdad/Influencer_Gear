@@ -25,7 +25,13 @@ body {
   top: 7px;
   box-shadow: 0 0 0 #a03b60;
 }
+
 /*Header part*/
+
+.top-header {
+  margin-top: 100px;
+}
+
 .main-header {
   font-size: 24px;
   line-height: 34px;
@@ -60,19 +66,33 @@ nav {
   align-items: flex-start;
 }
 .influencer-talk h1 {
-  font-size: 42px;
+  font-size: 52px;
+  line-height: 70px;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 0;
 }
 .influencer-talk p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin: 2opx 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+  margin-top: 0;
 }
 .influencer-image {
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
   display: flex;
   justify-content: center;
   align-items: flex-end;
   margin-top: 30px;
   margin-left: 100px;
+}
+.influencer-image:hover {
+  transform: scale(1.5) rotate(360deg);
+  transition: transform 3s ease-in-out;
 }
 .influencer-image img {
   width: 80%;
@@ -90,7 +110,9 @@ nav {
   align-items: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 /*products*/
+
 .products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -139,7 +161,9 @@ small {
   color: #787885;
   letter-spacing: 0.018em;
 }
+
 /*footer*/
+
 footer {
   background-color: #0a0826;
   color: #ffffff;
