@@ -162,6 +162,25 @@ small {
   letter-spacing: 0.018em;
 }
 
+.button {
+  display: grid;
+  margin-right: 200px;
+  justify-content: flex-end;
+}
+.see-more {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 99px;
+  height: 24px;
+  font-weight: 5900;
+  font-size: 16px;
+  cursor: pointer;
+  color: #e02c6d;
+}
+
 /*feedback*/
 
 .feedbacks {
